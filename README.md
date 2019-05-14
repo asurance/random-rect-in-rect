@@ -1,4 +1,7 @@
 # random-rect-in-rect
+
+[预览](https://asurance.github.io/random-rect-in-rect/)
+
 在矩形中随机矩形
 
 确保:  
