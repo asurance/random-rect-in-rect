@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div class="inputandoutput">
+        总宽
+        <br>
+        <input id="bigWidth" type="number" value="500" min="1" />
+        <br>
+        总高
+        <br>
+        <input id="bigHeight" type="number" value="500" min="1" />
+        <br>
+        方块宽
+        <br>
+        <input id="smallWidth" type="number" value="50" min="1" />
+        <br>
+        方块高
+        <br>
+        <input id="smallHeight" type="number" value="50" min="1" />
+        <br>
+        <input type="button" onmousedown="render()" value="随机" />
+        <p id="max"></p>
+        <p id="cur"></p>
+        <p id="time"></p>
+    </div>
+    <div class="canvas">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <script src="bin/index.js"></script>
+</body>
+
+</html>
